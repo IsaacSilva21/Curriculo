@@ -77,10 +77,7 @@
     font-size: 0.8em;
     font-weight: 300;
   }
-  .separator {
-    margin-top: 10px;
-    border: 1px solid var(--cor-quinta);
-  }
+
   
   .contInfo{
     padding-top: 40px;
@@ -106,10 +103,13 @@
     width: 30px;
     font-size: 18px;
     color: var(--cor-primaria);
+    margin-right: 10px;
   }
   .contInfo ul li span{
     color: var(--cor-quinta);
     font-weight: 300;
+    display: flex;
+    align-items: center;
   }
   .contInfo.education li{
     margin-bottom: 15px;
@@ -140,11 +140,6 @@
     height: 100%;
     background: var(--cor-primaria);
   }
-  .container .rigth_side{
-    position: relative;
-    background:var(--cor-quinta) ;
-    padding: 40px;
-  }
   .about
   {
     margin-bottom: 0;
@@ -160,4 +155,41 @@
   }
   p{
     color: #333;
+  }
+  .about .box{
+    display:flex ;
+    flex-direction:row ;
+    margin: 20px 0;
+  }
+  .about .box .year_company{
+    min-width: 150px;
+  }
+  .about .box .year_company h5{
+    text-transform: uppercase;
+    color: #848c84;
+    font-weight: 600;
+  }
+  .about .box .text h4{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+  }
+  .interest ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .interest ul li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  .interest ul li .fa{
+    color: #03a9f4;
+    font-size: 18px;
+    width: 20px;
+  }
+  #white-link {
+    color: white;
+    text-decoration: none;
   }
