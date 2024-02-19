@@ -1,0 +1,163 @@
+  @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+  :root {
+    --cor-primaria:#03a9f4;
+    --cor-secundaria:rgba(255,255,255,0.2);
+    --cor-terciaria:rgba(0,0,0,0.1);
+    --cor-quarta: #003147;
+    --cor-quinta: #fff;
+    --cor-sexta: lightblue;
+    --cor-sete: #081921;
+    --cor-oito:#003147;
+  }
+  *
+  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+  }
+  body{
+     background: var(--cor-sexta);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+  }
+  .container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: var(--cor-quinta);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px var(--cor-terciaria);
+
+  }
+  .container .left_Side{
+    position: relative;
+    background: var(--cor-quarta);
+    padding: 40px;
+  }
+  .profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--cor-secundaria);
+  }
+  .profileText .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .profileText .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .profileText h2{
+    color: var(--cor-quinta);
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+  }
+  .profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+  }
+  .separator {
+    margin-top: 10px;
+    border: 1px solid var(--cor-quinta);
+  }
+  
+  .contInfo{
+    padding-top: 40px;
+  }
+  .title{
+    color: var(--cor-quinta);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .contInfo ul{
+    position: relative;
+  }
+  .contInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  .contInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: var(--cor-primaria);
+  }
+  .contInfo ul li span{
+    color: var(--cor-quinta);
+    font-weight: 300;
+  }
+  .contInfo.education li{
+    margin-bottom: 15px;
+  }
+  .contInfo.education h5{
+    color:var(--cor-primaria);
+    font-weight: 500;
+  }
+  .contInfo.education h4:nth-child(2){
+    color: var(--cor-quinta);
+    font-weight: 500;
+  }
+  .contInfo.education h4{
+    color: var(--cor-quinta);
+    font-weight: 300;
+  }
+  .contInfo.language .percent{
+    position: var(--cor-quinta);
+    width: 100%;
+    height: 6px;
+    background-color:var(--cor-sete) ;
+    display: block;
+    margin-top: 5px;
+  }
+  .contInfo.language .percent div{
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: var(--cor-primaria);
+  }
+  .container .rigth_side{
+    position: relative;
+    background:var(--cor-quinta) ;
+    padding: 40px;
+  }
+  .about
+  {
+    margin-bottom: 0;
+  }
+  .about:last-child{
+    margin-bottom: 0;
+  }
+  .title2{
+    color: var(--cor-oito);
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  p{
+    color: #333;
+  }
