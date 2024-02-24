@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+  integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left_Side">
+      <div class="profileText">
+        <div class="imgBx">
+          <img src="imagens/img.1.jpg" alt="Imagem de perfil">
+        </div>
+        <h2>Isaac Levi<br><span>Estudante TADS</span></h2>
+        
+      </div>
+      <div class="contInfo">
+        <h3 class="title">Contatos</h3>
+        <ul>
+          <li>
+          <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+          <span class="text">11 94793-8609</span>
+        </li>
+        <li>
+          <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+          <span class="text"><a id="white-link" href="https://www.linkedin.com/in/isaac-levi-b6a5bb248/" target="_blank">LinkedIn </a></span>
+        </li>
+        <li>
+          <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+          <span class="text">isaac2108levi@gmail.com</span>
+        </li>
+        </ul>
+      </div>
+      <div class="contInfo education">
+        <h3 class="title">Formaçoes</h3>
+        <ul>
+          <li>
+            <h5>2019-2021</h5>
+            <h4>Ensino Medio</h4>
+            <h4>Oliveira guimaraes</h4>
+        </li>
+        <li>
+          <h5>2009 - 2018</h5>
+          <h4>Ensino fundamental</h4>
+          <h4>Oliveira guimaraes</h4>
+        </li>
+          <li>
+          <h5>2022 - 2024</h5>
+          <h4>TADS</h4>
+          <h4>Senac</h4>
+        </li>
+        </ul>
+      </div>
+
+      <div class="contInfo language">
+        <h3 class="title">linguas</h3>
+        <ul>
+          <li>
+            <span class="text">Ingles</span>
+            <span class="percent">
+             <div style="width: 60%;"></div>
+          </span>
+          </li>
+          <li>
+            <span class="text">Portugues</span>
+            <span class="percent">
+              <div style="width: 90%;"></div>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="rigth_side">
+    <div class="about">
+      <h2 class="title2">Sobre Mim</h2>
+      <p>Meu nome é isaac levi, tenho 19 anos sou estudante de análise e desenvolovimento de sistemas(TADS) na universidade Senac. </p>
+      <p>Tenho como objetivo me tornar um desenvolvedor backend, porém tambem procuro desenvolver minhas habilidades no frontend. </p>
+    </div>
+    <div class="about">
+      <h2 class="title2">Experiencias</h2>
+      <div class="box">
+        <div class="year_company">
+          <h5>2024-2025</h5>
+          <h5>Coca cola fesma</h5>
+        </div>        
+      </div>
+        <div class="about interest">
+          <h2 class="title2">Hobbies</h2>
+          <ul>
+            <li><i class="fa fa-headphones" aria-hidden="true"></i>Musica</li>
+            <li><i class="fa fa-gamepad" aria-hidden="true"></i>Gaming</li>
+            <li><i class="fa fa-book" aria-hidden="true"></i>Ler</li>
+          </ul>
+        </div>
+      </div>
+  </div>
+    </div>
+</body>
+</html>
